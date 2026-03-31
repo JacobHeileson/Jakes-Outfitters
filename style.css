@@ -164,3 +164,37 @@ h3 {
 #calcButton:hover {
     background: #70480a;
 }
+
+/* Contact form styling */
+#contactForm {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#contactForm label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#contactForm input {
+    padding: 8px;
+    width: 250px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contactForm button {
+    display: block;
+    margin: 15px auto 0;
+    background-color: #2e5e2e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: #3d7a3d;
+}
